@@ -4,7 +4,7 @@ let lastChecked;
 
 function handleCheck(e) {
   // verificar se a tecla shift está pressionada
-  // AND check that they are checking it
+  // e verifica se o input está true ou false
   let inBetween = false;
   if (e.shiftKey && this.checked) {
     // go ahead and do what we please
